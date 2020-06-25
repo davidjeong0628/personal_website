@@ -17,7 +17,7 @@ img {
 p {
     width: 70%;
     font-family: 'Helvetica', arial, sans-serif;
-    line-height: 145%;
+    line-height: 155%;
     margin-bottom: 2.3%;
     clear: left;
 }
@@ -44,7 +44,7 @@ nav {
 nav a {
     text-decoration: none;
     color: #000000;
-    margin-right: 1.5%;
+    margin-right: 1%;
     font-family: arial;
 }
 
