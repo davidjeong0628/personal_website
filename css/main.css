@@ -19,21 +19,22 @@ p {
     font-family: 'Helvetica', arial, sans-serif;
     line-height: 155%;
     margin-bottom: 2.3%;
-    clear: left;
+    font-size: 1.1rem;
 }
 
 header {
     border-bottom: solid 1px #e8e8e8;
-    padding-top: 0.8%;
-    padding-bottom: 0.8%;
+    padding-top: 1.5vh;
+    padding-bottom: 1.5vh;
     margin-bottom: 2%;
+    padding-right: 37.5%;
 }
 
 h1 {
     font-family: 'Helvetica', arial, sans-serif;
-    font-size: 300%;
+    font-size: 3.5rem;
     font-weight: 700;
-    width: 100%%;
+    width: 100%;
     margin-bottom: 1.2%;
 }
 
@@ -45,11 +46,7 @@ nav a {
     text-decoration: none;
     color: #000000;
     margin-right: 1%;
-    font-family: arial;
-}
-
-nav a:last-child {
-    margin-right: 37.5%;
+    font-family: arial, sans-serif;
 }
 
 nav a:hover {
@@ -66,4 +63,65 @@ h2 {
     margin-bottom: 7%;
     color: #aaaaaa;
     line-height: 109%;
+    font-size: 1.2rem;
+}
+
+@media screen and (max-width:1440px) {
+    main {
+        width: 40%;
+    }
+
+    header {
+        padding-right: 30%;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    main {
+        width: 70%;
+    }
+
+    header {
+        padding-right: 15%;
+    }
+}
+
+@media screen and (max-width:768px) {
+    main {
+        width: 85%;
+    }
+
+    header {
+        padding-right: 7.5%;
+    }
+}
+
+@media screen and (max-width:425px) {
+    main {
+        width: 95%;
+    }
+
+    header {
+        padding-right: 2.5%;
+    }
+
+    img {
+        width: 100%;
+        float: none;
+        border: double 8px #ccc8c8;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    p {
+        width: 100%;
+        font-family: 'Helvetica', arial, sans-serif;
+        line-height: 155%;
+        margin-bottom: 2.3%;
+        font-size: 1.1rem;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
 }
