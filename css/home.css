@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+}
+
+div.background {
+    width: 100vw;
+    height: 25vh;
+    background-color: rgba(0, 0, 0, 1);
+}
+
+@keyframes first {
+    from {right:100vw;}
+    to {right: 0vw;}
+}
+
+#one {
+    position: relative;
+    right: 100vw;
+    animation-name: first;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes second {
+    from {left:100vw;}
+    to {left: 0vw;}
+}
+
+#three {
+    position: relative;
+    left: 100vw;
+    animation-name: second;
+    animation-delay: 0.5s;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+#two {
+    position: relative;
+    right: 100vw;
+    animation-name: first;
+    animation-delay: 1s;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+#four {
+    position: relative;
+    left: 100vw;
+    animation-name: second;
+    animation-delay: 1.5s;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
