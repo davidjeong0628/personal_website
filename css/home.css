@@ -66,13 +66,11 @@ main {
 
 @keyframes name-opacity {
     from {color: rgba(0, 0, 0, 0);}
-    to {color: rgba(90, 90, 90, 1);}
+    to {color: rgba(0, 0, 0, 1);}
 }
 
 #name {
-    font-family: 'Yellowtail','Times New Roman', sans-serif;
-    font-variant: small-caps;
-    font-weight: 500;
+    font-family: 'Notable', 'Helvetica', sans-serif;
     font-size: 2.5rem;
     color: rgba(0, 0, 0, 0);
     animation-name: name-opacity;
