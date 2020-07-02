@@ -22,3 +22,13 @@ function navPosition() {
 
     return navPos;
 }
+
+function addDescription(description, footer) {
+    description.style.display = 'block';
+    footer.style.display = 'block';
+}
+
+function removeDescription(description, footer) {
+    description.style.display = 'none';
+    footer.style.display = 'none';
+}
