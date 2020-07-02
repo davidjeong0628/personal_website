@@ -61,7 +61,7 @@ h2 {
     background-color: rgba(255, 255, 255, 1);
     position: absolute;
     z-index: 1;
-    top: 3.5%;
+    top: 7vh;
 }
 
 nav a {
