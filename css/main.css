@@ -81,7 +81,6 @@ nav a {
 div.project {
     position: relative;
     width: 95%;
-    height: 25vh;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 10%;
@@ -125,7 +124,11 @@ footer.project-footer a {
     margin-right: 2%;
     font-weight: 400;
     text-decoration: none;
-    color: rgba(0, 0, 210, 1);
+    color: rgba(0, 0, 230, 1);
+}
+
+footer.project-footer a:hover {
+    text-decoration: underline;
 }
 
 

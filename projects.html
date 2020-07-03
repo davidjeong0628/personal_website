@@ -6,11 +6,12 @@
         <title>Projects</title>
         <link rel="stylesheet" href="css/default.css">
         <link rel="stylesheet" href="css/main.css">
-        <script src="js/func.js"></script>
+        <script src="js/mobile-func.js"></script>
+        <script src="js/general.js"></script>
     </head>
-    <body>
+    <body onload="projectHeight()" onresize="projectHeight()">
         <header id="myHeader">
-            <div id="hamburger" onclick="hamburger()">
+            <div id="hamburger" onclick="displayNavigation()">
                 <hr>
                 <hr>
                 <hr>
@@ -22,8 +23,19 @@
             <a href="resume.html">resume</a><br>
             <a href="contact.html">contact</a>
         </nav>
-        <main>
+        <main onclick="removeNav()">
             <h1 class="title">projects</h1>
+            <div class="project" id="personal-website">
+                <div class="project-title">personal website (this site)</div>
+                <div class="project-description">
+                    <p>Built a static website using HTML, CSS, and JavaScript. Made it responsive through CSS media queries.
+                    Added CSS transitions. Made a dropdown navigation for smaller screens.</p>
+                </div>
+                <footer class="project-footer">
+                    <a href="https://davidjeong0628.github.io/personal_website/" target="_blank">Link</a>
+                    <a href="https://github.com/davidjeong0628/personal_website" target="_blank">GitHub</a>
+                </footer>
+            </div>
             <div class="project">
                 <div class="project-title">personal website (this site)</div>
                 <div class="project-description">
