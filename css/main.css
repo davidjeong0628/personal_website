@@ -90,7 +90,7 @@ div.project {
 }
 
 div.project:hover {
-    background-color: rgba(230, 230, 230, 0.3);
+    background-color: rgba(240, 240, 240, 0.3);
 }
 
 div.project-title {
@@ -125,8 +125,9 @@ footer.project-footer a {
     margin-right: 2%;
     font-weight: 400;
     text-decoration: none;
-    color: #0000EE;
+    color: rgba(0, 0, 210, 1);
 }
+
 
 /* nav {
     text-align: right;
