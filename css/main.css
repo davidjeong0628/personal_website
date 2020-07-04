@@ -88,3 +88,54 @@ a > i {
     margin-left: auto;
     margin-right: auto;
 }
+
+/*Tablets*/
+@media screen and (min-width: 768px) {
+    nav {
+        text-align: right;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        padding-right: 12.5%;
+    }
+
+    nav > a {
+        width: auto;
+        margin-right: 3.5%;
+        border-right: none;
+        transition: color 0.25s;
+    }
+
+    nav > a:last-child {
+        margin-right: 0%;
+    }
+
+    nav > a:hover {
+        color: rgba(137, 207, 250, 1);
+        text-decoration: none;
+    }
+
+    main {
+        margin-top: 2.5%;
+        width: 75%;
+    }
+
+    main > h2 {
+        margin-bottom: 2%;
+    }
+
+    p.about-me {
+        width: 68%;
+        display: inline-block;
+    }
+
+    #me-photo {
+        width: 30%;
+        display: inline-block;
+        margin: 0%;
+        float: right;
+    }
+
+    #my-links {
+        margin-top: 25%;
+    }
+}
