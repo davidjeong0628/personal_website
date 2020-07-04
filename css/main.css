@@ -59,7 +59,7 @@ p.about-me {
     margin-left: auto;
     margin-right: auto;
     margin-top: 30%;
-    padding-bottom: 30%;
+    padding-bottom: 10%;
 }
 
 a > i {
@@ -89,7 +89,7 @@ a > i {
     margin-right: auto;
 }
 
-/*Tablets*/
+/* Tablets */
 @media screen and (min-width: 768px) {
     nav {
         text-align: right;
@@ -137,5 +137,79 @@ a > i {
 
     #my-links {
         margin-top: 25%;
+        padding-bottom: 5%;
+    }
+}
+
+/* Laptop S */
+@media screen and (min-width: 1024px) {
+    main {
+        width: 60%;
+    }
+
+    nav {
+        padding-top: 1.5%;
+        padding-bottom: 1.5%;
+        padding-right: 20%;
+    }
+
+    #my-links {
+        width: 60%;
+    }
+}
+
+/* Laptop L */
+@media screen and (min-width: 1440px) {
+    main {
+        width: 45%;
+    }
+
+    nav {
+        padding-top: 1%;
+        padding-bottom: 1%;
+        padding-right: 27.5%;
+    }
+
+    #my-links {
+        margin-top: 15%;
+        width: 45%;
+    }
+}
+
+/* 4K */
+@media screen and (min-width: 2560px) {
+    main {
+        width: 30%;
+    }
+
+    nav {
+        font-size: 1.2rem;
+        padding-top: 0.7%;
+        padding-bottom: 0.7%;
+        padding-right: 35%;
+    }
+
+    main > h1 {
+        font-size: 3rem;
+    }
+
+    main > h2 {
+        font-size: 1.2rem;
+        margin-bottom: 2.5%;
+    }
+
+    p.about-me {
+        width: 65%;
+        font-size: 1.2rem;
+    }
+
+    #me-photo {
+        width: 32%;
+    }
+
+    #my-links {
+        margin-top: 10%;
+        padding-bottom: 2.5%;
+        width: 30%;
     }
 }
