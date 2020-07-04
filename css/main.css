@@ -7,8 +7,8 @@
 }
 
 nav {
-    padding-top: 3.5%;
-    padding-bottom: 3.5%;
+    padding-top: 4%;
+    padding-bottom: 4%;
 }
 
 nav > a {
@@ -30,7 +30,7 @@ nav > a:hover {
 
 main {
     width: 95%;
-    margin-top: 3%;
+    margin-top: 10%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -52,15 +52,43 @@ p.about-me {
     text-align: justify;
 }
 
+#my-links {
+    width: 95%;
+    margin-top: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#my-links-block {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#my-links-block > a {
+    display: inline-block;
+    margin-right: 23%;
+}
+
+#my-links-block > a:last-child {
+    margin-right: 0%;
+}
+
 a > i {
+    color: rgba(150, 150, 150, 1);
+    transition: color 1s;
+}
+
+#email:hover {
+    color: rgba(212, 70, 56, 1);
+}
+
+#github:hover {
     color: rgba(0, 0, 0, 1);
 }
 
-#my-links {
-    width: 95%;
-    margin-top: 15%;
-    margin-left: auto;
-    margin-right: auto;
+#linkedin:hover {
+    color: rgba(0, 119, 181, 1);
 }
 
 #me-photo {
