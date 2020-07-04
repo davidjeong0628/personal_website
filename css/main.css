@@ -53,30 +53,16 @@ p.about-me {
 }
 
 #my-links {
-    width: 95%;
+    width: 71.25%;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 30%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-#my-links-block {
-    width: 75%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-#my-links-block > a {
-    display: inline-block;
-    margin-right: 23%;
-}
-
-#my-links-block > a:last-child {
-    margin-right: 0%;
+    padding-bottom: 30%;
 }
 
 a > i {
     color: rgba(150, 150, 150, 1);
-    transition: color 1s;
+    transition: color 0.5s;
 }
 
 #email:hover {
