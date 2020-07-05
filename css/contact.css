@@ -1,0 +1,15 @@
+#contact-h1 {
+    margin-bottom: 5%;
+}
+
+.contact {
+    margin-bottom: 5%;
+}
+
+.contact:last-child {
+    margin-bottom: 0%;
+}
+
+.contact > a:visited {
+    color: #0000EE;
+}
